@@ -1,0 +1,54 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h2 {
+  width: 30%;
+  text-align: center;
+  color: red;
+  box-shadow: 5px 5px 5px black;
+  margin: auto;
+}
+.cards {
+  width: 90%;
+  margin-top: 35px;
+  border: 3px solid grey;
+  position: relative;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgb(46, 3, 3);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.mainContainer {
+  font-size: 7px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.userEmail {
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    padding: 60px;
+    position: relative;
+  }
+  .mainContainer {
+    position: relative;
+  }
+  p {
+    position: relative;
+    left: -50px;
+    margin-right: 50px;
+  }
+}
